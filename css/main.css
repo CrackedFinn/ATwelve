@@ -83,12 +83,15 @@ download_m{
     font-weight:normal;
 }
 .navbar {
-  background-color: #000000;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.65);
 }
 @font-face {
     font-family: Pompadur;
